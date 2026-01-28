@@ -35,17 +35,23 @@ ________________________________________
 • SQL Server Import and Export Wizard (SSIS) – data ingestion  
 ________________________________________
 
-📁 Project Structure  
-/data  
-└── movies_dataset.csv  
-  (Original dataset containing movies, ratings, and genres)  
-/sql  
-└── analysis_queries.sql  
-  (All SQL queries used for data understanding, EDA, and analysis)  
-/results  
-└── results.txt  
-  (Summary of analytical results and business insights)  
-/README.md  
+📁 Project Structure 
+Movie-Industry-SQL-Analysis/
+│
+├── data/
+│   └── movies_dataset.csv
+│
+├── sql/
+│   ├── 01_data_understanding.sql
+│   ├── 02_trends_and_ratings.sql
+│   ├── 03_genre_analysis.sql
+│   ├── 04_popularity_vs_rating.sql
+│   └── 05_data_validation.sql
+│
+├── results/
+│   └── results.txt
+│
+└── README.md 
 Note:  
 RAW staging tables (movies_raw, ratings_raw, genres_raw) and clean tables  
 were created directly in SQL Server as part of the ETL process.
