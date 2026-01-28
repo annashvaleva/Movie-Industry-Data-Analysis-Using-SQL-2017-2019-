@@ -39,19 +39,22 @@ ________________________________________
 Movie-Industry-SQL-Analysis/
 │
 ├── data/
-│   └── movies_dataset.csv
+│ └── movies_dataset.csv
+│ (Original dataset used for analysis)
 │
 ├── sql/
-│   ├── 01_data_understanding.sql
-│   ├── 02_trends_and_ratings.sql
-│   ├── 03_genre_analysis.sql
-│   ├── 04_popularity_vs_rating.sql
-│   └── 05_data_validation.sql
+│ ├── 01_data_understanding.sql
+│ ├── 02_trends_and_ratings.sql
+│ ├── 03_genre_analysis.sql
+│ ├── 04_popularity_vs_rating.sql
+│ └── 05_data_validation.sql
+│ (SQL queries organized by analytical questions)
 │
 ├── results/
-│   └── results.txt
+│ └── results.txt
+│ (Summary of findings and business insights)
 │
-└── README.md 
+└── README.md
 Note:  
 RAW staging tables (movies_raw, ratings_raw, genres_raw) and clean tables  
 were created directly in SQL Server as part of the ETL process.
