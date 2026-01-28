@@ -101,7 +101,8 @@ ________________________________________
 ________________________________________
 
 📌 Project Deliverables
-• SQL Server relational database with clean, normalized tables
-• SQL scripts (01–05) with analytical queries organized by business questions
-• results.txt – summarized analytical findings and business insights
-• README.md – full project documentation
+•	SQL Server relational database with clean, normalized tables
+•	SQL scripts (01–05) with analytical queries organized by business questions
+•	results.txt – summarized analytical findings and business insights
+•	README.md – full project documentation
+
