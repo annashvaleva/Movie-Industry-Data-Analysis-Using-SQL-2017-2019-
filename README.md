@@ -36,6 +36,7 @@ ________________________________________
 ________________________________________
 
 ## 📁 Project Structure
+<pre>
 Movie-Industry-SQL-Analysis/
 ├── data/
 │   └── movies_dataset.csv
@@ -48,6 +49,7 @@ Movie-Industry-SQL-Analysis/
 ├── results/
 │   └── results.txt
 └── README.md
+</pre>
 Note:  
 RAW staging tables (movies_raw, ratings_raw, genres_raw) and clean tables  
 were created directly in SQL Server as part of the ETL process.
